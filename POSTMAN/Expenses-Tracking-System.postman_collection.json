@@ -270,7 +270,7 @@
 			"name": "TRANSACTIONS",
 			"item": [
 				{
-					"name": "Add Transaction",
+					"name": "Add Transaction to Category Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -422,7 +422,7 @@
 					"response": []
 				},
 				{
-					"name": "DELETE Transaction By Transaction Id",
+					"name": "DELETE Transaction By Category and Transaction Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
