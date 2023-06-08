@@ -130,7 +130,8 @@ The Expenses Tracking System can be reused in any Java SprinBoot  Project which 
 
 **POSTMAN APIs**
 
-![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/11357012-cbb2-4e02-bd7b-237a7fea831b)
+![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/bd3fffc4-e4f4-46cd-b453-1265c4b20d0f)
+
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/e72c1c25-7dd0-499f-bb3b-2b2fd292d513)
 
@@ -218,11 +219,6 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 ```http
  GET /api/categories/{{CategoryId}}
 
-  Payload
-  {
-    "title": "Shopping",
-    "description": "Day to Day Shopping"
-  }
 ```
 
 | Parameter | Type     | Description                |
@@ -285,19 +281,53 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 
 
 #### GET  Transactions By Category
+```http
+ GET /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `CategoryId` | `string` | **Required**. Your CategoryId |
+| `TransactionId` | `string` | **Required**. Your TransactionId |
+
 
 #### GET All Transactions By Category
-
-#### UPDATE Transaction By Id
-
-#### DELETE Transaction By Id
-
-
-
-
+```http
+ GET /api/categories/{{CategoryId}}/transactions
+```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `CategoryId` | `string` | **Required**. Your CategoryId |
 
 
+#### UPDATE Transaction By Category Id
+
+```http
+ PUT /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
+
+  Payload
+  {
+    "amount": 100,
+    "note": "Groceries",
+    "transactionDate": 1577817000000
+  }
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `CategoryId` | `string` | **Required**. Your CategoryId |
+| `TransactionId` | `string` | **Required**. Your TransactionId |
 
 
+#### DELETE Transaction By Transaction Id
 
+```http
+ DELETE /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
+
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `CategoryId` | `string` | **Required**. Your CategoryId |
+| `TransactionId` | `string` | **Required**. Your TransactionId |
 
