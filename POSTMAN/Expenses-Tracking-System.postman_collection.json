@@ -108,7 +108,7 @@
 					"response": []
 				},
 				{
-					"name": "GET Category",
+					"name": "GET Category By Category Id",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -189,7 +189,7 @@
 					"response": []
 				},
 				{
-					"name": "UPDATE Category By Id",
+					"name": "UPDATE Category By Category Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -227,7 +227,7 @@
 					"response": []
 				},
 				{
-					"name": "DELETE Category By Id",
+					"name": "DELETE Category By Category  Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -309,7 +309,7 @@
 					"response": []
 				},
 				{
-					"name": "GET  Transactions By Category",
+					"name": "GET  Transactions By Category and Transaction Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -340,7 +340,7 @@
 					"response": []
 				},
 				{
-					"name": "GET All Transactions By Category",
+					"name": "GET All Transactions By Category Id",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -382,7 +382,7 @@
 					"response": []
 				},
 				{
-					"name": "UPDATE Transaction By Id",
+					"name": "UPDATE Transaction By Category and Transaction Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -422,7 +422,7 @@
 					"response": []
 				},
 				{
-					"name": "DELETE Transaction By Id",
+					"name": "DELETE Transaction By Transaction Id",
 					"request": {
 						"auth": {
 							"type": "bearer",
