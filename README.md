@@ -9,7 +9,7 @@ Apart from this, we have used JSON Web Token (JWT) to add authentication. Using 
 
 1. **Clone the repo from GitHub**
    ```sh
-   git clone https://github.com/vishesh-mahale/Expenses-Tracking-System.git
+   git clone https://github.com/vishesh-mahale/Expenses-Tracking-System-Java-SpringBoot.git
    cd Expenses-Tracking-System
    ```
 2. **Spin-up PostgreSQL database instance**
@@ -139,13 +139,13 @@ The Expenses Tracking System can be reused in any Java SprinBoot  Project which 
 
 ## Postman Setup to use the APIs:
 
-1. Goto the POSTMAN folder present inside the  Expenses-Tracking-System folder.
+1. Goto the POSTMAN folder present inside the  Expenses-Tracking-System-Java-SpringBoot-main folder.
 2. Open the Postman Software.
-3. Inside postman goto Collections Tab and import the below file from Expenses-Tracking-System folder.
+3. Inside postman goto Collections Tab and import the below file from Expenses-Tracking-System-Java-SpringBoot-main folder.
 ```
 Expenses-Tracking-System.postman_collection 
 ```
-4. Inside postman goto Environments Tab and import the below file from Expenses-Tracking-System folder.
+4. Inside postman goto Environments Tab and import the below file from Expenses-Tracking-System-Java-SpringBoot-main folder.
 
 ```
 Expenses Tracking System API Env  Vars.postman_environment  
@@ -377,4 +377,3 @@ UPDATE ET_TRANSACTIONS SET AMOUNT = 1000, NOTE = 'new note', TRANSACTION_DATE = 
 DELETE FROM ET_TRANSACTIONS WHERE USER_ID = 2 AND CATEGORY_ID = 6 AND TRANSACTION_ID = 1007;
 
 ```
-
