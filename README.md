@@ -318,7 +318,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | `TransactionId` | `string` | **Required**. Your TransactionId |
 
 
-#### DELETE Transaction By Transaction Id
+#### DELETE Transaction By Category and Transactions Id
 
 ```http
  DELETE /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
@@ -329,4 +329,3 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | :-------- | :------- | :------------------------- |
 | `CategoryId` | `string` | **Required**. Your CategoryId |
 | `TransactionId` | `string` | **Required**. Your TransactionId |
-
