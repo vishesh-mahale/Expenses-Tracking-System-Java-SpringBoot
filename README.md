@@ -83,7 +83,7 @@ The Expenses Tracking System can be reused in any Java SprinBoot  Project which 
 **Creating a Database:**
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/8af78ee1-8dd9-4f50-a77d-010323b0e6ff)
 
-**Access the Database using SQL Workbench:**
+**Accessing the Database using SQL Workbench:**
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/c3c8d442-fec2-4575-b4b8-e09e6917959a)
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/2c68bebc-f245-4084-aa9f-de8087db0c75)
@@ -94,44 +94,43 @@ The Expenses Tracking System can be reused in any Java SprinBoot  Project which 
 
 
 
-**et_users**
+**et_users:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/5cb7f464-973c-4d16-be67-ddffbd83d17e)
 
 
-**et_categories**
+**et_categories:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/81da423d-5ba6-4db6-b2ca-41ba09e78530)
 
 
-**et_transactions**
+**et_transactions:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/5a2f18a9-c3aa-47d4-b49b-c8af19c4c404)
 
 
-**et_categories_seq**
+**et_categories_seq:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/907cfb2f-1843-47ac-ad28-67f086d563ab)
 
 
-**et_transactions_seq**
+**et_transactions_seq:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/46342da5-0a0b-446e-b407-09d447928c4c)
 
-**et_users_seq**
+**et_users_seq:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/77795b0f-74a2-4d19-8fa9-da03cc5c567f)
 
 
-**CODE STRUCTURE**
+**CODE STRUCTURE:**
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/10675dd4-4717-40e8-8cdb-fda297c843d6)
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/00ae377c-91f5-482a-8c21-0334c46477a9)
 
-**POSTMAN APIs**
+**POSTMAN APIs:**
 
-![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/bd3fffc4-e4f4-46cd-b453-1265c4b20d0f)
-
+![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/670e2cf9-874e-403f-b30c-d35d50b61b9f)
 
 ![image](https://github.com/vishesh-mahale/Expenses-Tracking-System/assets/55619589/e72c1c25-7dd0-499f-bb3b-2b2fd292d513)
 
@@ -152,7 +151,7 @@ Expenses-Tracking-System.postman_collection
 Expenses Tracking System API Env  Vars.postman_environment  
 ```
 
-To call this API, you will need to add the following environment variables.
+To call this API, you will need to add the below environment variables.
 
 
 **Environment Variables:**
@@ -214,7 +213,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 ```
 
 
-#### GET Category By Id
+#### GET Category By Category Id
 
 ```http
  GET /api/categories/{{CategoryId}}
@@ -233,7 +232,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
  GET /api/categories
 ```
 
-#### UPDATE Category By Id
+#### UPDATE Category By Category Id
 ```http
  PUT /api/categories/{{CategoryId}}
 
@@ -249,7 +248,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | `CategoryId` | `string` | **Required**. Your CategoryId |
 
 
-#### DELETE Category By Id
+#### DELETE Category By Category Id
 ```http
  DELETE /api/categories/{{CategoryId}}
 ```
@@ -280,7 +279,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | `CategoryId` | `string` | **Required**. Your CategoryId |
 
 
-#### GET  Transactions By Category
+#### GET Transactions By Category and Transaction Id
 ```http
  GET /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
 ```
@@ -291,7 +290,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | `TransactionId` | `string` | **Required**. Your TransactionId |
 
 
-#### GET All Transactions By Category
+#### GET All Transactions By Category Id
 ```http
  GET /api/categories/{{CategoryId}}/transactions
 ```
@@ -300,7 +299,7 @@ NOTE: For all the APIs mentioned below you will need to pass the JWT Token as a 
 | `CategoryId` | `string` | **Required**. Your CategoryId |
 
 
-#### UPDATE Transaction By Category Id
+#### UPDATE Transaction By Category and Transactions Id
 
 ```http
  PUT /api/categories/{{CategoryId}}/transactions/{{TransactionId}}
