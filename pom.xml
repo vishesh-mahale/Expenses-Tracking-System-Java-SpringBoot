@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pairlearning</groupId>
-	<artifactId>expense-tracker-api</artifactId>
+	<artifactId>Expenses-Tracking-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>expense-tracker-api</name>
+	<name>Expenses-Tracking-System</name>
 	<description>REST API for tracking expenses</description>
 
 	<properties>
