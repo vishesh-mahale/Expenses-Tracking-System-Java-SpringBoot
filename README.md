@@ -141,11 +141,11 @@ The Expenses Tracking System can be reused in any Java SprinBoot  Project which 
 
 1. Goto the POSTMAN folder present inside the  Expenses-Tracking-System-Java-SpringBoot-main folder.
 2. Open the Postman Software.
-3. Inside postman goto Collections Tab and import the below file from Expenses-Tracking-System-Java-SpringBoot-main folder.
+3. Inside Postman goto Collections Tab and import the below file from Expenses-Tracking-System-Java-SpringBoot-main folder.
 ```
 Expenses-Tracking-System.postman_collection 
 ```
-4. Inside postman goto Environments Tab and import the below file from Expenses-Tracking-System-Java-SpringBoot-main folder.
+4. Inside Postman goto the Environments Tab and import the below file from the Expenses-Tracking-System-Java-SpringBoot-main folder.
 
 ```
 Expenses Tracking System API Env  Vars.postman_environment  
